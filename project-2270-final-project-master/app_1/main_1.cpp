@@ -12,30 +12,30 @@ int main(int argc, char* argv[])
 
     //buffCUoin.prettyPrint(); 
 
-    cout << "ashutosh mining first block ... " << endl;
-    buffCUoin.minePendingTransactions("ashutosh");
+    cout << "Daenerys Targaryen mining first block ... " << endl;
+    buffCUoin.minePendingTransactions("Daenerys Targaryen");
     //buffCUoin.prettyPrint(); 
     
-    cout << "ashutosh paid maciej 1 BFC ... " << endl;
-    buffCUoin.addTransaction("ashutosh","maciej", 1);
+    cout << "Daenerys Targaryen paid Michael Scott 1 BFC ... " << endl;
+    buffCUoin.addTransaction("Daenerys Targaryen","Michael Scott", 1);
 
-    cout << "ashutosh paid asa 1 BFC ... " << endl;
-    buffCUoin.addTransaction("ashutosh","asa", 1);
+    cout << "Daenerys Targaryen paid asa 1 BFC ... " << endl;
+    buffCUoin.addTransaction("Daenerys Targaryen","asa", 1);
     cout << "asa mining second block ... " << endl;
     buffCUoin.minePendingTransactions("asa");
     //buffCUoin.prettyPrint(); 
     
-    cout << "asa paid ashutosh 1 BFC ... " << endl;
-    buffCUoin.addTransaction("asa","ashutosh", 1);    
-    cout << "ashutosh paid maciej 2 BFC ... " << endl;
-    buffCUoin.addTransaction("ashutosh","maciej", 2);
+    cout << "asa paid Daenerys Targaryen 1 BFC ... " << endl;
+    buffCUoin.addTransaction("asa","Daenerys Targaryen", 1);    
+    cout << "Daenerys Targaryen paid Michael Scott 2 BFC ... " << endl;
+    buffCUoin.addTransaction("Daenerys Targaryen","Michael Scott", 2);
     
-    cout << "maciej mining third block ... " << endl;
-    buffCUoin.minePendingTransactions("maciej");
+    cout << "Michael Scott mining third block ... " << endl;
+    buffCUoin.minePendingTransactions("Michael Scott");
     //buffCUoin.prettyPrint(); 
     
-    cout << "ashutosh mining fourth block ... " << endl;
-    buffCUoin.minePendingTransactions("ashutosh");
+    cout << "Daenerys Targaryen mining fourth block ... " << endl;
+    buffCUoin.minePendingTransactions("Daenerys Targaryen");
     //buffCUoin.prettyPrint();
 
     cout << "birwa mining fifth block ..." << endl;
