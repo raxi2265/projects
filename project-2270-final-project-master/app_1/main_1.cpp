@@ -1,8 +1,13 @@
 #include <iostream>
 #include <fstream>
 #include "../code_1/Blockchain.hpp"
+#include "../code_1/Blockchain.cpp"
 #include "../code_1/Block.hpp"
+#include "../code_1/Block.cpp"
 #include "../code_1/Transaction.hpp"
+#include "../code_1/Transaction.cpp"
+#include "../code_1/sha256.hpp"
+#include "../code_1/sha256.cpp"
 
 using namespace std;
 
@@ -75,16 +80,6 @@ int main(int argc, char* argv[])
 
 
     vector<Block> blockchain = buffCUoin.getBlocks();
-    // cout << "0 HASH" << blockchain[0].getHash() << endl;
-    // cout << "BLOCK 1 PREVIOUS HASH: " << blockchain[1].getPreviousHash() << endl;
-    // cout << "BLOCK 1 HASH: " <<  blockchain[1].getHash() << endl;
-    // cout << "BLOCK 2 PREVIOUS HASH: " << blockchain[2].getPreviousHash() << endl;
-    // cout << "BLOCK 3 HASH: " <<  blockchain[3].getHash() << endl;
-    // cout << "BLOCK 3 PREVIOUS HASH: " << blockchain[3].getPreviousHash() << endl;
-    // cout << "BLOCK 4 HASH: " <<  blockchain[4].getHash() << endl;
-    // cout << "BLOCK 4 PREVIOUS HASH: " << blockchain[4].getPreviousHash() << endl;
-    //cout << "TOSTRING BLOCK 1: " << blockchain[1].toString() << endl;
-    //cout << "TOSTRING BLOCK 2: " << blockchain[2].toString() << endl;
 
     string strinput;
     do{
