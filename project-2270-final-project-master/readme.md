@@ -2,6 +2,7 @@
 This is a project that I completed for my data structures class. It's a menu driven simulator of a coin called "BuffCUoin" and its blockchain. We begin by adding some transactions to the code when it first runs. Then, we are prompted with a menu. There are menu steps 1-6:
 
 ======Main Menu======
+
     1. Add a transaction
             Prompts user input for the sender, receiver, and amount. Calls the add
             transaction function with the user input values. Lastly, prints this
